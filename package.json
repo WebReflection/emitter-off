@@ -1,0 +1,24 @@
+{
+  "name": "emitter-off",
+  "version": "1.0.0",
+  "description": "polyfill: add off alias to removeListener",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -e 'require(`./`);console.assert(process.off===process.removeListener)'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebReflection/emitter-off.git"
+  },
+  "keywords": [
+    "events",
+    "emitter",
+    "off"
+  ],
+  "author": "Andrea Giammarchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebReflection/emitter-off/issues"
+  },
+  "homepage": "https://github.com/WebReflection/emitter-off#readme"
+}
